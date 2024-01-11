@@ -32,11 +32,13 @@
 # diagonal_dlinna =(N**2 + M**2)
 # print(f"Krundi diagonaali pikkus: {diagonal_dlinna:.1f} meeter")
 #6
-# aeg = float(input("Mitu tundi kulus sõiduks? "))
-# teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
-# kiirus = aeg / teepikkus
-
-# print("Sinu kiirus oli " + str(kiirus) + " km/h")
+#try:
+#    aeg = float(input("Mitu tundi kulus sõiduks? ")) #aeg ei saa olla 0
+#    teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+#    kiirus = teepikkus / aeg
+#    print("Sinu kiirus oli " + str(kiirus) + " km/h")
+#except :
+#    print("Viga andmetüübiga")
 #7
 # arv_1 = int(input("Sisesta esimene täisarv: "))
 # arv_2 = int(input("Sisesta teine täisarv: "))
@@ -57,10 +59,17 @@
 # umbermoot = a + b + c
 # print(f"Kolmnurga ümbermõõt on: {umbermoot}")
 #10
-# pitsa_hind = 12.90
-# jootraha_protsent = 10
-# jootraha = (jootraha_protsent / 100) * pitsa_hind
-# kogusumma = pitsa_hind + jootraha
-# inimesi = 2
-# maksma_kazdi = kogusumma / inimesi
-# print(f"Igaüks peab maksma {maksma_kazdi:.2f} eurot.")
+ pitsa_hind = 12.90
+ jootraha_protsent = 10
+ jootraha = (jootraha_protsent / 100) * pitsa_hind
+ kogusumma = pitsa_hind + jootraha
+ inimesi = 2
+ maksma_kazdi = kogusumma / inimesi
+ print("Igaüks peab maksma " str(maksma_kazdi) "eurot.")
+#10.2
+#from random import *
+#P=randint(1,5)
+#hind=12.90
+#hind*=1.1
+#osa=round(hind/P,2)
+#print("Iga sõber maksab: ",osa)
