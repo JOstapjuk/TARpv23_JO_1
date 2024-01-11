@@ -59,13 +59,13 @@
 # umbermoot = a + b + c
 # print(f"Kolmnurga ümbermõõt on: {umbermoot}")
 #10
- pitsa_hind = 12.90
- jootraha_protsent = 10
- jootraha = (jootraha_protsent / 100) * pitsa_hind
- kogusumma = pitsa_hind + jootraha
- inimesi = 2
- maksma_kazdi = kogusumma / inimesi
- print("Igaüks peab maksma " str(maksma_kazdi) "eurot.")
+# pitsa_hind = 12.90
+# jootraha_protsent = 10
+# jootraha = (jootraha_protsent / 100) * pitsa_hind
+# kogusumma = pitsa_hind + jootraha
+# inimesi = 2
+# maksma_kazdi = kogusumma / inimesi
+# print(f"Igaüks peab maksma {maksma_kazdi:.2f} eurot.")
 #10.2
 #from random import *
 #P=randint(1,5)
