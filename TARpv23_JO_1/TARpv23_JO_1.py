@@ -24,13 +24,13 @@
 #4
 # import math
 # obhvat = float(input("Sisesta puu ümbermõõt sentimeetrites: "))
-# diametr = obhvat/math.pi
-# print(f"Диаметр дерева: {diametr:.1f} см")
+# diametr = round(obhvat/math.pi,2)
+# print("Диаметр дерева: " + str(diametr) + " см")
 #5
 # N = float(input("Sisesta krundi pikkus meetrites (N): "))
 # M = float(input("Sisesta krundi laius meetrites (M): "))
 # diagonal_dlinna =(N**2 + M**2)
-# print(f"Krundi diagonaali pikkus: {diagonal_dlinna:.1f} meeter")
+# print("Krundi diagonaali pikkus: " + str(diagonal_dlinna) + " meeter")
 #6
 #try:
 #    aeg = float(input("Mitu tundi kulus sõiduks? ")) #aeg ei saa olla 0
@@ -46,7 +46,7 @@
 # arv_4 = int(input("Sisesta neljas täisarv: "))
 # arv_5 = int(input("Sisesta viies täisarv: "))
 # keskmine = (arv_1 + arv_2 + arv_3 + arv_4 + arv_5) / 5
-# print(f"Aritmeetiline keskmine on: {keskmine}")
+# print(f"Aritmeetiline keskmine on: ",keskmine)
 #8
 # print("   @..@")
 # print("  (----)")
@@ -57,15 +57,15 @@
 # b = int(input("Sisesta teise külje pikkus b: "))
 # c = int(input("Sisesta kolmanda külje pikkus c: "))
 # umbermoot = a + b + c
-# print(f"Kolmnurga ümbermõõt on: {umbermoot}")
+# print(f"Kolmnurga ümbermõõt on: ", umbermoot)
 #10
-# pitsa_hind = 12.90
-# jootraha_protsent = 10
-# jootraha = (jootraha_protsent / 100) * pitsa_hind
+# pitsa_hind = float(12.90)
+# jootraha_protsent = float(10)
+# jootraha = float((jootraha_protsent / 100) * pitsa_hind)
 # kogusumma = pitsa_hind + jootraha
-# inimesi = 2
-# maksma_kazdi = kogusumma / inimesi
-# print(f"Igaüks peab maksma {maksma_kazdi:.2f} eurot.")
+# inimesi = float(2)
+# maksma_kazdi = round(kogusumma / inimesi,2)
+# print("Igaüks peab maksma " + str(maksma_kazdi) + " eurot.")
 #10.2
 #from random import *
 #P=randint(1,5)
