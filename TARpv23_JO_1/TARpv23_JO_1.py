@@ -73,3 +73,4 @@
 #hind*=1.1
 #osa=round(hind/P,2)
 #print("Iga sõber maksab: ",osa)
+

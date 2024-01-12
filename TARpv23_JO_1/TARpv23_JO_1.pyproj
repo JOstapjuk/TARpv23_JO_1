@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7efac0ed-486a-486c-9bef-d2bdc7a9fbc4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TARpv23_JO_1.py</StartupFile>
+    <StartupFile>If_else_elif.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="If_else_elif.py" />
     <Compile Include="TARpv23_JO_1.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
