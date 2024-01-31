@@ -89,5 +89,5 @@
 #15
 for j in range(0,10,1):
     for i  in range(0,10,1):
-        print(i,end=" ")
+        print(f"{i:3}",end=" ")
     print()
