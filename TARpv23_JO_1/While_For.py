@@ -86,3 +86,8 @@
 #     else:
 #         print("Числа равны.")
 #     schet += 1
+#15
+for j in range(0,10,1):
+    for i  in range(0,10,1):
+        print(i,end=" ")
+    print()
