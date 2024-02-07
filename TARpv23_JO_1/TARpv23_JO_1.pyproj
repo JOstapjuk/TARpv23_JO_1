@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="If_else_elif.py" />
+    <Compile Include="Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="While_For.py">
       <SubType>Code</SubType>
     </Compile>
