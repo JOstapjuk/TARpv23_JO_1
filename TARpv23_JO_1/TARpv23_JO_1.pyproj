@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7efac0ed-486a-486c-9bef-d2bdc7a9fbc4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>While_For.py</StartupFile>
+    <StartupFile>Lists.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
