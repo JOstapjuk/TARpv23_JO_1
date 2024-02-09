@@ -1,0 +1,1 @@
+lause=input("Kirjuta sõna või lause:\n")

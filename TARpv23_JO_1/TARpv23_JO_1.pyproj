@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7efac0ed-486a-486c-9bef-d2bdc7a9fbc4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lists.py</StartupFile>
+    <StartupFile>Iseseisevtöö_Listid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="If_else_elif.py" />
     <Compile Include="Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Iseseisevtöö_Listid.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="While_For.py">
