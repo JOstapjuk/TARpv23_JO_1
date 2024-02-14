@@ -89,7 +89,3 @@
 #    else:
 #        print("Носите маски!")
 #5 Vahetus
-from random import *
-for i in range(6):
-    elm=randint(1,100)
-print(elm)
