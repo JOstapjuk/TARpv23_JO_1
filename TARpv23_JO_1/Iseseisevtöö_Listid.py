@@ -89,3 +89,31 @@
 #    else:
 #        print("Носите маски!")
 #5 Vahetus
+#from random import *
+#from string import * 
+#rida=[]
+#N=randint(2,25)
+#for i in range(N):
+#    rida.append(choice(ascii_uppercase))
+#print(rida)
+#kogus=int(input("Mitu elemendi vahetame ome vahel "))
+#if len(rida)//2>=kogus:
+#    for i in range(kogus):
+#        a=rida[i]
+#        rida[i]=rida[len(rida)-i-1]
+#        rida[len(rida)-1-i]=a
+#print(rida)
+#6 Бесполезное число
+from random import *
+num=[]
+for i in range(10):
+    arv=randint(1,50)
+    num.append(arv)
+print(num)
+maksimum=max(num)
+print(maksimum)
+d=maksimum/len(num)
+print(d)
+maxindx=num.index(maksimum)
+num[maxindx]=d
+print(num)
