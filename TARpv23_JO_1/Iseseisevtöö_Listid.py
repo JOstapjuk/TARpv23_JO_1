@@ -104,16 +104,16 @@
 #        rida[len(rida)-1-i]=a
 #print(rida)
 #6 Бесполезное число
-from random import *
-num=[]
-for i in range(10):
-    arv=randint(1,50)
-    num.append(arv)
-print(num)
-maksimum=max(num)
-print(maksimum)
-d=maksimum/len(num)
-print(d)
-maxindx=num.index(maksimum)
-num[maxindx]=d
-print(num)
+#from random import *
+#num=[]
+#for i in range(10):
+#    arv=randint(1,50)
+#    num.append(arv)
+#print(num)
+#maksimum=max(num)
+#print(maksimum)
+#d=maksimum/len(num)
+#print(d)
+#maxindx=num.index(maksimum)
+#num[maxindx]=d
+#print(num)
