@@ -138,16 +138,14 @@
 
 #9 Nimi kontroll
 #try:
-#    täht=["e","u","i","o","ü","õ","a","ö","ä","q","w","r","t","y","p","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m"]
-#    nimi=input("Siseta oma nime: ").lower
-#    nimi_list=list(nimi)
-#    for i in nimi_list:
-#        if nimi 
-#except ValueError:
-#    print("Nimi peab koosnema tähtedest.")
+    täht=["e","u","i","o","ü","õ","a","ö","ä","q","w","r","t","y","p","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m"]
+    nimi=input("Siseta oma nime: ").lower
+    nimi_list=list(nimi)
+    for i in nimi_list:
+        if nimi 
+except ValueError:
+    print("Nimi peab koosnema tähtedest.")
+#10 
 
-A = [13, 31, 3, 46, 53, 6, 63]
-k=0
-for i in range(7):
-  if A[i] % 10 == 3: k += 1
-print(k)
+#11
+
