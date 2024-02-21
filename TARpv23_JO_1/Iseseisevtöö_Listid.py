@@ -117,3 +117,37 @@
 #maxindx=num.index(maksimum)
 #num[maxindx]=d
 #print(num)
+#1v for
+#from random import *
+#from string import *
+#from time import sleep
+#for i in range(100):
+#    print("#",end="")
+#    sleep(random())
+#print()
+#7 Sorteerimine
+#num=[]
+#for i in range(6):
+#    num_ask=int(input("Siseta number: "))
+#    num.append(num_ask)
+#kahaneva_järgi=sorted(num)
+#kasvava_järgi=sorted(num,reverse=True)
+#print("kahaneva järgi on: ",kahaneva_järgi)
+#print("kasvava järgi on: ",kasvava_järgi)
+#8 Võrdsepikkusega elemendid
+
+#9 Nimi kontroll
+#try:
+#    täht=["e","u","i","o","ü","õ","a","ö","ä","q","w","r","t","y","p","s","d","f","g","h","j","k","l","z","x","c","v","b","n","m"]
+#    nimi=input("Siseta oma nime: ").lower
+#    nimi_list=list(nimi)
+#    for i in nimi_list:
+#        if nimi 
+#except ValueError:
+#    print("Nimi peab koosnema tähtedest.")
+
+A = [13, 31, 3, 46, 53, 6, 63]
+k=0
+for i in range(7):
+  if A[i] % 10 == 3: k += 1
+print(k)

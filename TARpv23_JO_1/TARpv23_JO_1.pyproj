@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7efac0ed-486a-486c-9bef-d2bdc7a9fbc4</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Iseseisevtöö_Listid.py</StartupFile>
+    <StartupFile>def.pyw</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="def.pyw" />
     <Compile Include="If_else_elif.py" />
     <Compile Include="Lists.py">
       <SubType>Code</SubType>
@@ -28,6 +29,7 @@
     <Compile Include="Iseseisevtöö_Listid.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="My_module.pyw" />
     <Compile Include="While_For.py">
       <SubType>Code</SubType>
     </Compile>
