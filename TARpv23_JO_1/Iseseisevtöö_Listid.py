@@ -44,7 +44,7 @@ print("Uue nimega nimekiri: ",nimed)
 õpilased=1
 print("Kordusteta nimekiri: ",õpilased)
 vanused=[]
-#for i in range(5):
+for i in range(5):
    vanus=int(input("Siseta vanus: "))
    vanused.append(vanus) #lisame andmed järjendisse
 maksimum=max(vanused)
