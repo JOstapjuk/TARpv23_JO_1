@@ -11,9 +11,18 @@
 #value_control=typeControl(value) 
 #print(value_control)
 #(1)
+#while True:
+#    arv1=int(input("Siseta arv number 1: "))
+#    arv2=int(input("Siseta arv number 2: "))
+#    operatsion=input("Millist funktsiooni soovite kasutada? + / - / * / / /")
+#    result=arithmetic(arv1,arv2,operatsion)
+#    print(result)
+#(2)
 while True:
-    arv1=int(input("Siseta arv number 1: "))
-    arv2=int(input("Siseta arv number 2: "))
-    operatsion=input("Millist funktsiooni soovite kasutada? + / - / * / / /")
-    result=arithmetic(arv1,arv2,operatsion)
-    print(result)
+    try:
+        aasta=int(input("Siseta aasta number: "))
+        break
+    except:
+        print("Viga")
+a=is_year_leap(aasta)
+print(a)

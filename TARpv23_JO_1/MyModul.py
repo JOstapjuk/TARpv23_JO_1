@@ -48,3 +48,15 @@ def arithmetic(arv1:float,arv2:float,operatsion:str)->any:
             return "Nulli ei saa jagada"
     else:
         return "Tundmatu operatsioon"
+
+def is_year_leap(year:int)->bool:
+    """ Funktsioon otsustab kas aasta on liigaasta või ei ole
+    Tagastab True kui liigasta ja False kui on tavaline aasta 
+
+    :param int year: Aasta sisestab kasutaja
+    :rtype: bool
+    """
+    if year%4==0 and year%100!=0:
+        return True
+    else:
+        return False
