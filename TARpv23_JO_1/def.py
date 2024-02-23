@@ -18,11 +18,21 @@
 #    result=arithmetic(arv1,arv2,operatsion)
 #    print(result)
 #(2)
+#while True:
+#    try:
+#        aasta=int(input("Siseta aasta number: "))
+#        break
+#    except:
+#        print("Viga")
+#a=is_year_leap(aasta)
+#print(a)
+#(3)
 while True:
     try:
-        aasta=int(input("Siseta aasta number: "))
+        a=int(input("Siseta külg: "))
         break
     except:
         print("Viga")
-a=is_year_leap(aasta)
-print(a)
+S,P,d=square(a)
+print(f"S={S}, P={P}, d={d}")
+#(4)

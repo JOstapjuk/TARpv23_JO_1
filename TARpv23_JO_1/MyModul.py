@@ -60,3 +60,28 @@ def is_year_leap(year:int)->bool:
         return True
     else:
         return False
+
+from math import *
+def square(külg:float)->any:
+    """ Funktsioon tagastab 3 värtusi ümbermõt,pindala ja diagonaal
+    Tagastab S,P,d
+
+    :param float külg: Ruudukülg sisetab kasutaja
+    :rtype: any
+    """
+    S=külg**2
+    P=4*külg
+    d=külg*sqrt(2)
+    return S,P,d
+#4
+def season(a:int)->str:
+    """ Funktsioon tagastab aastaaega nimi (talv, kevad, suvi или sügis)
+
+    :param int a: Kuu sisetab kasutaja
+    :rtype: str
+    """
+    while True:
+        if a>0 and a<13:
+            break
+        else:
+            a=int(input("Ainult 1-12"))
