@@ -27,12 +27,20 @@
 #a=is_year_leap(aasta)
 #print(a)
 #(3)
+#while True:
+#    try:
+#        a=int(input("Siseta külg: "))
+#        break
+#    except:
+#        print("Viga")
+#S,P,d=square(a)
+#print(f"S={S}, P={P}, d={d}")
+#(4)
 while True:
     try:
-        a=int(input("Siseta külg: "))
+        kuu=int(input("kuu number: "))
         break
     except:
         print("Viga")
-S,P,d=square(a)
-print(f"S={S}, P={P}, d={d}")
-#(4)
+a=season(kuu)
+print(a)

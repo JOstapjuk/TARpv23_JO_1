@@ -85,6 +85,15 @@ def season(a:int)->str:
             break
         else:
             try:
-                a=int(input("Ainult 1-12!\n Siseta veel kord number: "))
+                a=int(input("Ainult 1-12!\nSiseta veel kord number: "))
             except:
                 print("Viga andmetüübiga")
+    if a==12 or a==1 or a==2:
+        s="Talv"
+    elif a>2 and a<6:
+        s="Kevad"
+    elif a in range(6,9,1):
+        s="Suvi"
+    elif 9<=a<=11:
+        s="Sügis"
+    return s
