@@ -97,3 +97,6 @@ def season(a:int)->str:
     elif 9<=a<=11:
         s="Sügis"
     return s
+
+#5
+def bank()

@@ -38,7 +38,7 @@
 #(4)
 while True:
     try:
-        kuu=int(input("kuu number: "))
+        kuu=int(input("Kuu number: "))
         break
     except:
         print("Viga")

@@ -238,7 +238,7 @@ if otsingusona in jarjend:
 else:
    print("Seda sõna nimekirjas ei ole")
 
-#17 Kasino
+17 Kasino
 from time import sleep
 from random import choice, random
 
