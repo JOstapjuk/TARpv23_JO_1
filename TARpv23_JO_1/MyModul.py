@@ -84,4 +84,7 @@ def season(a:int)->str:
         if a>0 and a<13:
             break
         else:
-            a=int(input("Ainult 1-12"))
+            try:
+                a=int(input("Ainult 1-12!\n Siseta veel kord number: "))
+            except:
+                print("Viga andmetüübiga")
