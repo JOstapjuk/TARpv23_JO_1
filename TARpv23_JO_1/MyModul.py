@@ -99,4 +99,45 @@ def season(a:int)->str:
     return s
 
 #5
-def bank()
+def bank(a:int,aastat:int) -> int:
+    """ Tagastus summa, mis on kasutaja kontol
+    a -  hoius summas a eurot
+    
+    :param int a: A sisetab kasutaja
+    :param int aastat: Aastat sisestab kasutaja
+    :rtype: int
+    """
+    kokku=a
+    intressid = 0.10
+    for i in range(aastat):
+        kokku += kokku * intressid
+    return kokku
+#6
+def is_prime(num:int) -> bool:
+    """ Tagastades True, kui see on lihtne, ja False, muidu
+    
+    :param int num: Num sisesetab kasutaja
+    :rtype: bool
+    """
+    if num <= 1:
+        return False
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            return False
+    return True
+#7
+from datetime import datetime
+
+def is_valid_date(päev:int, kuu:int, aasta:int) -> bool:
+    """ Tagastab True, kui selline kuupäev on meie kalendris, ja False teisiti
+    
+    :param int päev: sissetab kasutaja
+    :param int kuu: sissestab kasutaja
+    :param int aasta: sissestab kasutaja
+    :rtype: bool
+    """
+    try:
+        datetime(aasta, kuu, päev)
+        return True
+    except ValueError:
+        return False
